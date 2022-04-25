@@ -1,5 +1,5 @@
-import { ChainId } from '@dcl/schemas/dist/dapps/chain-id'
-import { ProviderType } from '@dcl/schemas/dist/dapps/provider-type'
+import { ChainId } from '@yanrongxing/schemas/dist/dapps/chain-id'
+import { ProviderType } from '@yanrongxing/schemas/dist/dapps/provider-type'
 import { FortmaticConnector as BaseFortmaticConnector } from '@web3-react/fortmatic-connector'
 import { getConfiguration } from '../configuration'
 

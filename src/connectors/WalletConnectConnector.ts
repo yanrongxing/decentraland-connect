@@ -1,4 +1,4 @@
-import { ProviderType } from '@dcl/schemas/dist/dapps/provider-type'
+import { ProviderType } from '@yanrongxing/schemas/dist/dapps/provider-type'
 import { ConnectorUpdate } from '@web3-react/types'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 import { IWalletConnectProviderOptions } from '@walletconnect/types'

@@ -1,8 +1,8 @@
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import sinon from 'sinon'
-import { ChainId } from '@dcl/schemas/dist/dapps/chain-id'
-import { ProviderType } from '@dcl/schemas/dist/dapps/provider-type'
+import { ChainId } from '@yanrongxing/schemas/dist/dapps/chain-id'
+import { ProviderType } from '@yanrongxing/schemas/dist/dapps/provider-type'
 import { getConfiguration } from '../src/configuration'
 import { ConnectionManager, connection } from '../src/ConnectionManager'
 import {
