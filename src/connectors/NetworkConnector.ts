@@ -15,7 +15,13 @@ export const RPC_URLS = Object.freeze({
   [ChainId.MATIC_MAINNET]:
     'https://rpc-mainnet.maticvigil.com/v1/aad675783e3f73a13efbf6e95338d6de7fd5c9b9',
   [ChainId.MATIC_MUMBAI]:
-    'https://rpc-mumbai.maticvigil.com/v1/aad675783e3f73a13efbf6e95338d6de7fd5c9b9'
+    'https://rpc-mumbai.maticvigil.com/v1/aad675783e3f73a13efbf6e95338d6de7fd5c9b9',
+  [ChainId.BSC_MAINNET]:
+    'https://bsc-dataseed1.binance.org',
+  [ChainId.BSC_TEST]:
+    'https://data-seed-prebsc-1-s1.binance.org:8545',
+  [ChainId.TEST]:
+    'http://217.174.153.45:8545/'
 })
 
 export class NetworkConnector extends BaseNetworkConnector {
