@@ -21,7 +21,7 @@ export const RPC_URLS = Object.freeze({
   [ChainId.BSC_TEST]:
     'https://data-seed-prebsc-1-s1.binance.org:8545',
   [ChainId.TEST]:
-    'http://217.174.153.45:8545/'
+    'http://localhost:8545/'
 })
 
 export class NetworkConnector extends BaseNetworkConnector {

@@ -1,12 +1,12 @@
 {
   "name": "@yanrongxing/connect",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "dist",
   "scripts": {
     "prebuild": "rimraf dist",
     "lint": "tslint --project tsconfig.json -e '*.json' -c tslint.json 'src/**/*.ts{,x}'",
     "lint:fix": "tslint  --fix --project tsconfig.json -e '*.json' -c tslint.json 'src/**/*.ts{,x}'",
-    "build": "npm run lint && npm run test && tsc --project tsconfig.json",
+    "build": "npm run test && tsc --project tsconfig.json",
     "test": "nyc mocha --require ts-node/register --project ./tsconfig.json --watch-files src, test/**/*.ts",
     "test:watch": "npm test -- --watch",
     "test:report": "npx nyc --silent --no-clean npm run test && npx nyc report --reporter=lcov --reporter=text",
@@ -14,7 +14,7 @@
     "commitmsg": "validate-commit-msg"
   },
   "dependencies": {
-    "@yanrongxing/schemas": "0.0.3",
+    "@yanrongxing/schemas": "0.1.0",
     "@types/node": "^10.1.2",
     "@walletconnect/web3-provider": "^1.6.5",
     "@web3-react/fortmatic-connector": "^6.1.6",
